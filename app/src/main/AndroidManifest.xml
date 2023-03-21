@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.InClass_Zhuohan_926923"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".InClass07_main"
+            android:exported="false" />
+        <activity
+            android:name=".InClass07_Register"
+            android:exported="false" />
+        <activity
+            android:name=".InClass07_Login"
+            android:exported="false" />
+        <activity
+            android:name=".InClass_06.InClass_06"
+            android:exported="false" />
+        <activity
+            android:name=".InClass_05.InClass_05"
+            android:exported="false" />
+        <activity
+            android:name=".InClass_04.InClass04"
+            android:exported="false" />
+        <activity
+            android:name=".InClass_03.InClass03"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".InClass_03.DisplayFragment$InClass03" -->
+        <!-- android:exported="false" /> -->
+        <activity
+            android:name=".InClass_02.Display"
+            android:exported="false" />
+        <activity
+            android:name=".InClass_02.selectAvatar"
+            android:exported="false" />
+        <activity
+            android:name=".InClass_02.InClass02"
+            android:exported="false" />
+        <activity
+            android:name=".Practice.PracticeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InClass_01.InClass01"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

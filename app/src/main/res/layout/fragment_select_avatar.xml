@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InClass_03.SelectAvatarFragment">
+
+    <TextView
+        android:id="@+id/inClass03_textView_selctAvatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Select Your Avatar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/inClass03_imageView_f1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/avatar_f_1"
+        app:layout_constraintEnd_toStartOf="@+id/inClass03_textView_selctAvatar"
+        app:layout_constraintTop_toBottomOf="@+id/inClass03_textView_selctAvatar" />
+
+    <ImageView
+        android:id="@+id/inClass03_imageView_f2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/avatar_f_2"
+        app:layout_constraintStart_toEndOf="@+id/inClass03_textView_selctAvatar"
+        app:layout_constraintTop_toBottomOf="@+id/inClass03_textView_selctAvatar" />
+
+    <ImageView
+        android:id="@+id/inClass03_imageView_f3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/avatar_f_3"
+        app:layout_constraintEnd_toEndOf="@+id/inClass03_imageView_f1"
+        app:layout_constraintTop_toBottomOf="@+id/inClass03_imageView_f1" />
+
+    <ImageView
+        android:id="@+id/inClass03_imageView_m1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/avatar_m_1"
+        app:layout_constraintStart_toStartOf="@+id/inClass03_imageView_f2"
+        app:layout_constraintTop_toBottomOf="@+id/inClass03_imageView_f2" />
+
+    <ImageView
+        android:id="@+id/inClass03_imageView_m2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/avatar_m_2"
+        app:layout_constraintEnd_toEndOf="@+id/inClass03_imageView_f3"
+        app:layout_constraintTop_toBottomOf="@+id/inClass03_imageView_f3" />
+
+    <ImageView
+        android:id="@+id/inClass03_imageView_m3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/avatar_m_3"
+        app:layout_constraintStart_toStartOf="@+id/inClass03_imageView_m1"
+        app:layout_constraintTop_toBottomOf="@+id/inClass03_imageView_m1" />
+</androidx.constraintlayout.widget.ConstraintLayout>
